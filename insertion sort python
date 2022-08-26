@@ -1,0 +1,12 @@
+def insertion_sort(aary):
+    for i in range (1, len(aary)):
+        j=i
+        while aary [j-1] > aary[j] > 0 :
+            aary[j-1], aary[j]  = aary[j],aary[j-1]
+            j-=1
+            
+
+#define a list
+aary =  [2,4,3,7,9,5]
+insertion_sort(aary)
+print(aary)
