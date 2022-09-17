@@ -1,0 +1,14 @@
+def LinearSearch(arry,x):
+  for i in range(0,n):
+    if arry[i] ==x :
+      return i
+  return -1
+    
+arry = [0,6,7,4,8,9,2]
+x=2
+n = (len(arry))
+result = LinearSearch(arry, x)
+if(result == -1):
+    print("Element not found")
+else:
+    print("Element found at index: ", result)
